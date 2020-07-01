@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dgsaltarin.alcancia.controller.PiggyBankInterfaceController">
+   <children>
+      <Separator layoutX="25.0" layoutY="141.0" prefHeight="6.0" prefWidth="556.0" />
+      <Label layoutX="243.0" layoutY="14.0" text="Insertar Monedas" />
+      <Label layoutX="91.0" layoutY="65.0" text="Cantidad:" />
+      <Label layoutX="25.0" layoutY="104.0" text="Valor de las monedas:" />
+      <Button fx:id="InsertCoinsButton" layoutX="340.0" layoutY="61.0" mnemonicParsing="false" onAction="#insertCoins" text="Insertar" />
+      <ComboBox fx:id="coinsValueCB1" layoutX="148.0" layoutY="100.0" prefWidth="150.0" />
+      <TextField fx:id="coinsQuantity" onKeyPressed="#evaluateEnteredValue" layoutX="148.0" layoutY="61.0" />
+      <Label layoutX="264.0" layoutY="150.0" text="Consultar" />
+      <Button fx:id="requestCoinsButton" onAction="#getTotalCoins" layoutX="223.0" layoutY="197.0" mnemonicParsing="false" text="Monedas" />
+      <Button fx:id="requestMoneyButton" layoutX="327.0" layoutY="197.0" mnemonicParsing="false" onAction="#getTotalMoney" text="Dinero" />
+      <TextField fx:id="responseTextField" layoutX="221.0" layoutY="247.0" prefHeight="25.0" prefWidth="111.0" />
+      <ComboBox fx:id="coinsValueCB2" layoutX="25.0" layoutY="197.0" prefWidth="150.0" />
+      <Label layoutX="25.0" layoutY="167.0" text="Elija el tipo de moneda" />
+      <Label layoutX="121.0" layoutY="251.0" text="El total es:" />
+   </children>
+</AnchorPane>
