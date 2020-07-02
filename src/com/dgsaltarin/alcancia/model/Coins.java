@@ -2,7 +2,7 @@ package com.dgsaltarin.alcancia.model;
 
 public class Coins {
 
-    //coins that piggy bank will allow
+    //valores de las monedas que serán permitidas dentro de la alcancia
     public static final short coin50 = 50;
     public static final short coin100 = 100;
     public static final short coin200 = 200;

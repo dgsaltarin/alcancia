@@ -25,6 +25,9 @@ public class PiggyBankInterfaceController implements Initializable {
 
     private CoinsDaoImplement _coinsDao = new CoinsDaoImplement();
 
+    /**
+     * coloca los valores dentro de cada comboBox correspondiente
+     * */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         coinsValueCB1.setItems(FXCollections.observableArrayList(
