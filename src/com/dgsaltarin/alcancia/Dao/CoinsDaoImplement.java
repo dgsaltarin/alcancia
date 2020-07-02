@@ -33,7 +33,7 @@ public class CoinsDaoImplement implements CoinsDao {
     }
 
     /**
-     * retorna el total de dinero en la aclancia de acuerdo a un tipo de moneda
+     * retorna el total de dinero en la alcancia de acuerdo a un tipo de moneda
      * */
     public int getTotalMoney(short coinValue) {
         totalMoney = 0;
@@ -58,7 +58,7 @@ public class CoinsDaoImplement implements CoinsDao {
     }
 
     /**
-     * retorna el total de monedas en la aclancia de acuerdo a un tipo de moneda
+     * retorna el total de monedas en la alcancia de acuerdo a un tipo de moneda
      * */
     public int getTotalCoins(short coinValue) {
         totalCoins = 0;
@@ -83,7 +83,7 @@ public class CoinsDaoImplement implements CoinsDao {
     }
 
     /**
-     * guarda nuveas monedas dentro de la alacancia
+     * guarda las nuevas monedas dentro de la alacancia
      * */
     public void insertCoins(short coinsQuantity, short coinValue) {
         switch (coinValue) {
