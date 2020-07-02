@@ -83,7 +83,7 @@ public class CoinsDaoImplement implements CoinsDao {
     }
 
     /**
-     * guarda las nuevas monedas dentro de la alacancia
+     * guarda las nuevas monedas dentro de la alcancia
      * */
     public void insertCoins(short coinsQuantity, short coinValue) {
         switch (coinValue) {
